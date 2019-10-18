@@ -42,6 +42,6 @@ html, body {
   bottom: 80px;
   right: 20px;
   overflow: auto;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .row {line-height: 35px;}
