@@ -1,0 +1,47 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 500px;
+  position: relative;
+}
+
+/* 底部按钮 */
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  overflow: hidden;
+}
+.bottom #msg {
+  float: left;
+  width: 220px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.bottom #btn {
+  float: right;
+  width: 70px;
+  height: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* 消息面板 */
+.top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 80px;
+  right: 20px;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+.row {line-height: 35px;}
